@@ -31,19 +31,20 @@ body {
 }
 
 .footer {
-    position: relative;
+    position:relative;
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: #555;
+    background: #f7f6f5;
+    background: -webkit-linear-gradient(to right, #fdfdfd, #c5cdf0, #0e0401);
+    background: linear-gradient(to right, #fdfdfd, #c5cdf0, #0e0401);
     text-align: center;
     align-items: baseline;
-
 }
 
 .imgCarrosel {
-    width: 300px;
-    height: 400px;
+    width: 400px;
+    height: 600px;
 }
 
 .txtCarrosel {
@@ -61,4 +62,27 @@ body {
     width: 60px;
     margin-left: 5%;
     justify-content: inherit;
+}
+.contato {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.margemEsquerda {
+    margin-left: 70px;
+}
+
+.margemBaixa{
+    margin-bottom: 68px;
+}
+.tamText{
+    font-size: 14px;
+
+}
+
+.cards{
+    width: 300px;
 }
