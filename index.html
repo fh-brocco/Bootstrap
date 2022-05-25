@@ -10,8 +10,10 @@
     <!--Link para pegar o estilo CSS dos servidores do Bootstrap-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
         integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <link rel="stylesheet" href="assets/css/script.css">
-
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="assets/img/Elegantthemes-Beautiful-Flat-One-Color-Dev.ico" type="image/x-icon">
+    <!-- /Favicon -->
 </head>
 
 
@@ -19,7 +21,7 @@
 <body>
     <!--Menu-->
     <nav class="navbar navbar-expand-lg navbar-dark colorMenu">
-        <a class="navbar-brand" href="index.html"><img
+        <a class="navbar-brand" href="siteCompleto.html"><img
                 src="assets/img/kisspng-brand-logo-front-end-web-development-front-and-bac-5b08799705f763.2579192115272820710245.jpg"
                 class="imgLogo"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado"
@@ -30,26 +32,27 @@
         <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item active ">
-                    <a class="nav-link text-dark" href="#">Home <span class="sr-only">(página atual)</span></a>
+                    <a class="nav-link text-dark" href="siteCompleto.html">Home <span class="sr-only">(página
+                            atual)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link text-dark " href="#">Vídeos</a>
+                    <a class="nav-link text-dark " href="contato.html">Contato</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled text-dark" href="sobre.html">Sobre nós</a>
                 </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle text-dark" href="#" id="navbarDropdown" role="button"
                         data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Menu
+                        Mais
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="#">Vídeos</a>
-                        <a class="dropdown-item" href="#">Outra ação</a>
+                        <a class="dropdown-item" href="videos.html">Vídeos</a>
                         <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="#">Sites referencia</a>
+                        <a class="dropdown-item" href="sitesReferencia.html">Sites referencia</a>
                     </div>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link disabled text-dark" href="#">Sobre nós</a>
-                </li>
+
             </ul>
             <form class="form-inline my-2 my-lg-0">
                 <input class="form-control mr-sm-2" type="search" placeholder="Pesquisar" aria-label="Pesquisar">
@@ -57,29 +60,42 @@
             </form>
         </div>
     </nav>
-    <!--Menu-->
+    <!--/Menu-->
 
 
-    <!--Grid-->
-    <div class="container">
+    <!--Referências externas-->
+    <div class="cointainer contato">
 
-        <div class="row mt-5 d-flex justify-content-center ">
-            <div class="col-md-6 p-0">
-                <div class="bg-danger">1 coluna</div>
+        <div class="margemBaixa">
+            <h2>Sites de referência:</h2>
+            <hr>
+            <div>
+                <a href="https://brazil.generation.org/" class="badge badge-dark">Generation Brasil</a>
             </div>
-            <div class="col-md-6 p-0">
-                <div class="bg-info">2 coluna</div>
-
+            <div>
+                <a href="https://getbootstrap.com.br/" class="badge badge-dark">Bootstrap</a>
             </div>
-            <!--Grid-->
+            <div>
+                <a href="https://www.w3schools.com/css/default.asp" class="badge badge-dark">Css</a>
+            </div>
+            <div>
+                <a href="https://www.w3schools.com/html/default.asp" class="badge badge-dark">Html</a>
+            </div>
+            <div>
+                <a href="https://www.w3schools.com/js/default.asp" class="badge badge-dark">JavaScript</a>
+            </div>
+
+        </div>
+
+    </div>
+    <!--/Referências externas-->
 
 
 
 
-            <!--Rodapé-
+    <!--Rodapé-->
     <footer class="footer">
         <div>
-            <hr>
             <a href="https://github.com/fh-brocco">
                 <img class="logo" src="assets/img/placa-do-github.png" alt="Logo do Github">
             </a>
@@ -93,26 +109,26 @@
         <p class="center">
             Todos os direitos reservados: Fernando Brocco &copy
         </p>
-    </footer> -->
-            <!--Rodapé-->
+    </footer>
+    <!--/Rodapé-->
 
+    <!--Script Js-->
+    <script src="assets/js/script.js"></script>
+    <!--/Script Js-->
 
-            <!--Scripts necessários para utilização dos códigos JS do Bootstrap-->
-            <!-- JavaScript (Opcional) -->
-            <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
-            <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-                integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-                crossorigin="anonymous">
-            </script>
-            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
-                integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-                crossorigin="anonymous">
-            </script>
-            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
-                integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
-                crossorigin="anonymous">
-            </script>
-            <!--Scripts necessários para utilização dos códigos JS do Bootstrap-->
+    <!--Scripts necessários para utilização dos códigos JS do Bootstrap-->
+    <!-- JavaScript (Opcional) -->
+    <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous">
+    </script>
+    <!--/Scripts necessários para utilização dos códigos JS do Bootstrap-->
 
 </body>
 
