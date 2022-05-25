@@ -60,12 +60,26 @@ function enviar() {
     }
 }
 
-function mapaZoom(){
-    mapa.style.width="600px"
-    mapa.style.height="450px"
+function mapaZoom() {
+    mapa.style.width = "600px"
+    mapa.style.height = "450px"
 }
 
-function mapaNormal(){
-    mapa.style.width="400px"
-    mapa.style.height="250px"
+function mapaNormal() {
+    mapa.style.width = "400px"
+    mapa.style.height = "250px"
+}
+
+function search() {
+    let input = document.getElementById('searchbar').value
+    input = input.toLowerCase();
+    let x = document.getElementsByClassName('animals');
+
+    for (i = 0; i < x.length; i++) {
+        if (!x[i].innerHTML.toLowerCase().includes(input)) {
+            x[i].style.display = "none";
+        } else {
+            x[i].style.display = "list-item";
+        }
+    }
 }
